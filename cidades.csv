@@ -1,0 +1,47 @@
+arestas e heuristicas seguem padrao: 'a' ou 'e', cidade, cidade, valor
+inicializacao do algoritmo segue: 'a*', cidade de inicio, cidade final
+
+e, oradea, zerind, 71
+e, zerind, arad, 75
+e, arad, timisoara, 118
+e, timisoara, lugoj, 111
+e, lugoj, mehadia, 70
+e, oradea, sibiu, 151
+e, mehadia, dobreta, 75
+e, dobreta, craiova, 120
+e, craiova, rimnicu, 146
+e, craiova, pitesti, 138
+e, rimnicu, sibiu, 80
+e, arad, sibiu, 140
+e, sibiu, fagaras, 99
+e, fagaras, bucharest, 211
+e, rimnicu, pitesti, 97
+e, pitesti, bucharest, 101
+e, giurgiu, bucharest, 90
+e, bucharest, urziceni, 85
+e, urziceni, hirsova, 98
+e, hirsova, eforie, 86
+e, urziceni, vaslui, 142
+e, vaslui, iasi, 92
+e, iasi, neamt, 87
+h, arad, bucharest, 366
+h, bucharest, bucharest, 0
+h, craiova, bucharest, 160
+h, dobreta, bucharest, 242
+h, eforie, bucharest, 161
+h, fagaras, bucharest, 176
+h, giurgiu, bucharest, 77
+h, hirsova, bucharest, 151
+h, iasi, bucharest, 226
+h, lugoj, bucharest, 244
+h, mehadia, bucharest, 241
+h, neamt, bucharest, 234
+h, oradea, bucharest, 380
+h, pitesti, bucharest, 10
+h, rimnicu, bucharest, 193
+h, sibiu, bucharest, 253
+h, timisoara, bucharest, 329
+h, urziceni, bucharest, 80
+h, vaslui, bucharest, 199
+h, zerind, bucharest, 374
+a*, lugoj, bucharest

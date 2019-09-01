@@ -1,5 +1,6 @@
 # astar-pathfinding
 Simple A* pathfinding algorithm
+
 Set the edges and straight line distances (heuristic) via the cidades.csv file
 
 Based on this (great!) tutorial, by @Nicholas-Swift (thanks, Nicholas):

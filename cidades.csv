@@ -1,9 +1,4 @@
-arestas e heuristicas seguem padrao: 'e' ou 'h', cidade, cidade, valor
-inicializacao do algoritmo segue: 'a*', cidade de inicio, cidade final
-
-edges and heuristics pattern:  'e' or 'h', city1, city2, value
-algorithm initialization: 'a*', from city, to city
-
+edge or heuristic, city1, city2, value
 e, oradea, zerind, 71
 e, zerind, arad, 75
 e, arad, timisoara, 118

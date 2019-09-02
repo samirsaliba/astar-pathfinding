@@ -69,8 +69,8 @@ class Graph:
 			self.add_vertex(to)
 
 		if distance!=0:
-			self.vertices[frm].add_neighbor(self.vertices[to], distance)
-			self.vertices[to].add_neighbor(self.vertices[frm], distance)				
+			self.vertices[frm].add_neighbor(self.vertices[to], int(distance, 10))
+			self.vertices[to].add_neighbor(self.vertices[frm], int(distance, 10))				
 			
 	def add_sld(self, frm, to, sld=0):
 		if frm not in self.vertices:
@@ -79,8 +79,8 @@ class Graph:
 			self.add_vertex(to)
 
 		if sld!=0:
-			self.vertices[frm].add_sld(self.vertices[to], sld)
-			self.vertices[to].add_sld(self.vertices[frm], sld)
+			self.vertices[frm].add_sld(self.vertices[to], int(sld, 10))
+			self.vertices[to].add_sld(self.vertices[frm], int(sld, 10))
 
 	def get_vertices(self):
 		return self.vertices.keys()
@@ -142,10 +142,10 @@ if __name__ == '__main__':
 				continue
 
 			elif row[0]=='e':
-				grafo.add_edge(row[1], row[2], int(row[3], 10))
+				grafo.add_edge(row[1], row[2], row[3])
 		
 			elif row[0]=='h':
-				grafo.add_sld(row[1], row[2], int(row[3], 10))
+				grafo.add_sld(row[1], row[2], row[3])
 
 			elif row[0]=='a*':
 				print 'astar: from ' + row[1] + ' to ' +  row[2]
